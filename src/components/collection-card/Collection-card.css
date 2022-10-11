@@ -66,6 +66,7 @@
   flex-direction: column;
   gap:10px;
   margin-top:10px;
+  color: #000;
   }
   .collection-card-brand{
   font-weight: bold;

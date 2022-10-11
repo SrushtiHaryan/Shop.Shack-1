@@ -13,20 +13,18 @@ import Homepage from './pages/Homepage/HomePage';
 import Collection from './pages/KidsCollection/KidsCollection';
 import MenCollection from './pages/MenCollection/MenCollection';
 import WomenCollection from './pages/WomenCollection/WomenCollection';
+import App from './App';
 // import Categories from './pages/categories/Categories';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
 
-    <Navbar></Navbar>
-    <WomenCollection></WomenCollection>
-    {/* <Contact></Contact> */}
-     {/* <Categories></Categories> */}
-    {/* <OrderSummary></OrderSummary> */}
-    {/* <Product></Product> */}
 
+    <App></App>
+   
   </div>
 
 );

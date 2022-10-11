@@ -6,7 +6,7 @@ import { MdOutlineShoppingCart } from 'react-icons/md';
 
 const productPage = function () {
 
-  return (<div class="container">
+  return (<div class="product-page-container">
     <div class="product-container">
 
 

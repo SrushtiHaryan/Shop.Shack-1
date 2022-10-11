@@ -3,6 +3,7 @@ import React from 'react';
 import './Navbar.css';
 import {HiShoppingBag, HiOutlineUserCircle} from 'react-icons/hi';
 import {MdOutlineShoppingCart} from 'react-icons/md';
+import {Link} from 'react-router-dom';
 
 
 const navbar = function(){
@@ -13,12 +14,12 @@ const navbar = function(){
       <div className="Brand-name">Shop.Shack</div>
     </div>
     <ul>
-      <a>
-        <li>Home</li>
-      </a>
-      <li><a>Shop</a></li>
-      <li><a>About Us</a></li>
-      <li><a>Contact Us</a></li>
+   
+      <Link to='/'><li><a>Home</a></li></Link>
+      <Link to='/shop'><li><a>Shop</a></li></Link>
+      <Link to='/about'><li><a>About Us</a></li></Link>
+      <Link to='/contact'><li><a>Contact Us</a></li></Link>
+      
     </ul>
     <div className="cart-profile">
       <MdOutlineShoppingCart />
