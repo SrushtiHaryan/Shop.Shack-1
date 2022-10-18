@@ -9,22 +9,17 @@ import OrderPlaced from "./pages/orderPlaced/orderPlaced";
 
 import OrderSummary from "./pages/order-summary/OrderSummary";
 
-import AuthIn from "./pages/AuthIn/AuthIn";
-import Contact from "./pages/ContactUs/ContactUs";
-import Homepage from "./pages/Homepage/HomePage";
-import KidsCollection from "./pages/KidsCollection/KidsCollection";
-import MenCollection from "./pages/MenCollection/MenCollection";
-import WomenCollection from "./pages/WomenCollection/WomenCollection";
-import Categories from "./pages/categories/Categories";
-import AboutUs from "./pages/AboutUs/AboutUs";
-import checkout from "./pages/CheckOut/checkoutpage";
+import AuthIn from './pages/AuthIn/AuthIn';
+import Contact from './pages/ContactUs/ContactUs';
+import Homepage from './pages/Homepage/HomePage';
+import KidsCollection from './pages/KidsCollection/KidsCollection';
+import MenCollection from './pages/MenCollection/MenCollection';
+import WomenCollection from './pages/WomenCollection/WomenCollection';
+import Categories from './pages/categories/Categories';
+import AboutUs from './pages/AboutUs/AboutUs';
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-} from "react-router-dom";
+import  {BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+
 
 const App = () => {
   return (
